@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  background: url('./components/images/bg.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,3 +34,10 @@ code {
 h1,h2,h3,h4,h5,h6{
   text-transform: capitalize;
 }
+
+/* ----------------header Start-------- */
+.header{
+
+  height: 60px;;
+  }
+/* ----------------header end----------- */
